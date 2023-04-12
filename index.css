@@ -1,0 +1,15 @@
+body{
+    font-family:sans-serif;
+}
+
+h3.pageindex{
+    border-top: 1px solid black;
+}
+
+h1, h2, h3{
+    color: darkblue;
+}
+
+b{
+    color:darkred;
+}
