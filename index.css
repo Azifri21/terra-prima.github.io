@@ -17,18 +17,99 @@ h1{
     color: darkblue;
 }
 
-
-h3.pageindex{
-    border-top: 1px solid rgb(0, 0, 0);
-}
-
 h2, h3{
     font-family: "Roboto", sans-serif;
     font-size: 120%;
     color: darkblue;
 }
 
+h3.pageindex{
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
 b{
     color:darkred;
 }
 
+#claudia {
+    background-color: rgb(227, 228, 255);
+
+    padding: 25px;
+    padding-left: 130px;
+
+    border-color: rgb(23, 50, 222);
+    border-width: thin;
+    border-style: solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-image: url(images/claudia.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position: 10px;
+    background-size: 100px;
+
+}
+
+#desquicio {
+    background-color: rgb(255, 240, 240);
+
+    padding: 25px;
+    padding-left: 130px;
+ 
+    border-color: rgb(244, 18, 18);
+    border-width: thin;
+    border-style: solid;
+
+    margin:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-image: url(images/desquicio.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position: 10px;
+    background-size: 100px;
+
+}
+
+#madman {
+    background-color: rgb(255, 241, 225);
+
+    padding: 25px;
+    padding-left: 130px;
+
+    border-color: rgb(229, 125, 7);
+    border-width: thin;
+    border-style: solid;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    margin:50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-image: url(images/madman.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position: 10px;
+    background-size: 100px;
+}
+
+.pageindex {
+    background-color: rgb(255, 255, 248);
+
+    padding: 5px;
+
+    border-color: black;
+    border-width: thick;
+    border-style: outset;
+
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+
+}
