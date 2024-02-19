@@ -1,15 +1,12 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Arial, sans-serif;
     font-size: small;
 }
-
-/* no longer in use font
-body{
-    font-family:Verdana, Geneva, Arial, sans-serif;
-}
-*/
 
 h1{
     font-family: "Roboto", sans-serif;
@@ -34,54 +31,28 @@ b{
 #claudia {
     background-color: rgb(227, 228, 255);
 
-    padding: 25px;
-    padding-left: 130px;
-
     border-color: rgb(23, 50, 222);
     border-width: thin;
     border-style: solid;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 
-    margin: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
     background-image: url(images/claudia.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-position: 10px;
-    background-size: 100px;
 
 }
 
 #desquicio {
     background-color: rgb(255, 240, 240);
-
-    padding: 25px;
-    padding-left: 130px;
  
     border-color: rgb(244, 18, 18);
     border-width: thin;
     border-style: solid;
 
-    margin:50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
     background-image: url(images/desquicio.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-position: 10px;
-    background-size: 100px;
-
 }
 
 #madman {
     background-color: rgb(255, 241, 225);
-
-    padding: 25px;
-    padding-left: 130px;
 
     border-color: rgb(229, 125, 7);
     border-width: thin;
@@ -89,11 +60,17 @@ b{
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 
+    background-image: url(images/madman.png);
+}
+
+.mainthree {
+    padding: 25px;
+    padding-left: 130px;
+
     margin:50px;
     margin-top: 5px;
     margin-bottom: 5px;
 
-    background-image: url(images/madman.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-position: 10px;
@@ -112,4 +89,12 @@ b{
     border-radius: 15px;
     border-top-left-radius: 0px;
 
+}
+
+@media screen and (max-width: 700px) {
+    .mainthree {
+        padding: 25px;
+        padding-top: 130px;
+        background-position: top center;
+    }
 }
