@@ -28,6 +28,57 @@ b{
     color:darkred;
 }
 
+#allcontent {
+    width: 1000px;
+    padding: 20px;
+    background-color: #e6f6ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+}
+
+#description {
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#navigation {
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#authorNotes {
+    border-width: thin;
+    border-style: solid;
+    border-color:rgb(1, 0, 68);
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(195, 236, 255);
+}
+
+#footer {
+    font-size: 80%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+}
+
+<!-- not for index -->
+
 #claudia {
     background-color: rgb(227, 228, 255);
 
@@ -97,4 +148,80 @@ b{
         padding-top: 130px;
         background-position: top center;
     }
+}
+
+#header {
+    width: 1000px;
+}
+
+#main3 {
+    width: 1000px;
+}
+
+#cast {
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+
+    width: 1000px;
+
+    padding: 10px;
+    
+    margin: 30px;
+}
+
+#cast h2 {
+    color:brown;
+}
+
+#terra1 {
+    background-color: rgb(187, 219, 250);
+    padding: 10px;
+}
+
+#terraobscura {
+    background-color: rgb(250, 202, 202);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#darksun {
+    background-color: rgb(255, 215, 166);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#pageindex {
+    border-width: thin;
+    border-style: solid;
+    border-color:black;
+
+    width: 1000px;
+    
+    padding: 10px;
+    
+    margin: 30px;
+}
+
+
+
+a:link {
+    color: #007e7e;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
+
+a:focus {
+    color:blueviolet
+}
+
+a:active {
+    color: rgb(211, 0, 0)
 }
