@@ -16,11 +16,11 @@
 
 //writeArchive("lastfirst", 1, maxpg, 0, true,true);
 
-writeArchive("chapter1", 1, 9, -1,false,false) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
+writeArchive("chapter1", 1, 12, -1,false,false) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
 
-writeArchive("chapter2", 10, 16, -1, false,false);
+writeArchive("chapter2", 13, 28, -1, false,false);
 
-writeArchive("chapter3", 17, maxpg, -1, false,false);
+writeArchive("chapter3", 29, 32, -1, false,false);
 
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
 
@@ -89,7 +89,7 @@ function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
         }
 
         //draw each row
-        cellTitle.innerHTML = `<span><strong>${pgTitle}</strong></span>`;
+        cellTitle.innerHTML = `<span>${pgTitle}</span>`;
         cellTitle.setAttribute("class", "archiveCellTitle");
         cellDate.innerHTML = "<span> " + pgDate + " </span>";
         cellDate.setAttribute("class", "archiveCellDate");

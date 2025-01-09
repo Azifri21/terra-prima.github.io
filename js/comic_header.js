@@ -11,7 +11,7 @@ document.querySelector(".writeHeader").innerHTML = `
             <a href="locations.html">LOCATIONS</a> |
             <a href="gallery.html">GALLERY</a> |
             <a href="fanart.html">FANART</a> |
-            <a href="links.html">LINKS</a> |
+            <a href="links.html">LINKS</a>
         </div>
     </header>
 `;
