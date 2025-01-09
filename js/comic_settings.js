@@ -326,7 +326,7 @@ const pgData = [
     },
     {
         pgNum: 31,
-        title: "Chapter 17: Will and choice (II)",
+        title: "Chapter 19: Will and choice (II)",
         altText: "not yet uploaded",
         imageFiles: 1,
         authorNotes: `
@@ -335,7 +335,7 @@ const pgData = [
     },
     {
         pgNum: 32,
-        title: "Chapter 17: Will and choice (III)",
+        title: "Chapter 20: Will and choice (III)",
         altText: "not yet uploaded",
         imageFiles: 1,
         authorNotes: `
