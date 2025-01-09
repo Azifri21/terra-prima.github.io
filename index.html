@@ -3,60 +3,73 @@
     
 <head>
     <meta charset="utf-8">
-    <title>Terra Prima</title>
-    <link type="text/css" rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="all">
+    <title>Terra Prima - Homepage</title>
 </head>
 
 <body>
-    <div id="allcontent"> 
-        <div id="banner">
-            <img src="images/Titlelogo.png" alt="banner with all 3 characters" width="1000">
+
+    <div class=" subPage clearfix">
+        <div align="center">
+
+        <div class="writeHeader"></div>
+
+        <div class="box">
+
+            <h1>Terra Prima</h1>
+
+            <p>Terra Prima is a science fiction comic that follows the journey of an idealistic scientist, a self-absorbed collector of emotions, and a mysterious madman, as well as the people they meet along the way, as they deal with their personal challenges amidst a multiverse-wide conflict.</p>
+
+            <p>I started drawing this comic around 2010, as a practice comic since I had never drawn a long comic before, and the plan was to draw only Book One. As my drawing skills improved, I decided to continue the comic. This story was inspired by a game my friends and I created.</p>
+
+            <p>You can also read the comic on <a href="https://tapas.io/series/Terra-Prima/info" title="a link to my webcomic Terra Prima" target="_blank">Tapas</a> </p>
+
         </div>
 
-        <div id="description">
-            <h2>Description</h2>
-            <p>Terra Prima is a science fiction webcomic.</p>
-            <p>Read from the beginning</p>
-            <p>Go to most <a href="https://tapas.io/series/Terra-Prima/info" title="go to page 1" target="_blank">recent page</a></p>
-            <p>Or read on Tapas <a href="https://tapas.io/series/Terra-Prima/info" title="a link to my webcomic Terra Prima" target="_blank">tapas.io</a> </p>
-        </div>
-
-        <div id="navigation">
-            <h2>Navigation</h2>
-            <p>navigation options will go here</p>
-            <h4>Go to:</h4>
-            <ul>
-                <li> <a href="chapters/chapters_s1.html" >Index and summary of chapters from season 1</a> </li>
-                <li> <a href="chapters/chapters_s2.html" >Index and summary of chapters from season 2</a> </li>
-                <li> <a href="worldbuilding/characters.html">Cast of characters</a></li>
-                <li> <a href="worldbuilding/scenarios.html">Main locations where the comic takes place</a> </li>
-                <li> <a href="worldbuilding/concepts.html">Description of some sci-fi concepts relevant to the story</a></li>
-            </ul>
-            <p>
-                <a href="../index.html">back to the main page</a>
-            </p>
+            <div class="archivePage subPage" align="left">
         
-
-        </div>
-
-        <div id="authorNotes">
-            <h2>Author's rant 29.12.2024</h2>
-            <p>I'm learning how to do a website and it's testing my patience. Still fun!</p>
-
-        </div>
+                <h1>Chapters</h1>
+                <script>
+                indexPage = "comic.html" //set which html page the comic pages are on, supremely important. archive system will break otherwise
+                </script>
+                
+                <div class="chapter1">
+                    <h2>Book One</h2>
+                </div>
         
-        <div id="footer">
-        <p>Created by Azifri. All rights reserved.</p>
-        <p>[Page under construction]</p>
+                <div class="chapter2">
+                    <h2>Book Two</h2>
+                </div>
+        
+                <div class="chapter3">
+                    <h2>Book Three</h2>
+                </div>
+                
+            </div>
+
+        <div class="box">
+            
+            <p><em>This site is also my personal website development learning project and is still under construction as I learn new things along the way. Need to contact me? You can <a href="mailto:gatablanca@gmail.com">send me an email</a>.</em></p>
+
         </div>
 
     </div>
 
-    <!-- really important- every js script is called here, be sure to always put them just before the closing body tag, use a defer attribute, and call them in this specific order.-->
-<script src="js/comic_header.js" defer></script>
-<script src="js/comic_settings.js" defer></script>
-<script src="js/comic_archive.js" defer></script>
-<script src="js/comic_footer.js" defer></script>
+
+        <div id="footer" class="writeFooter"></div>
+
+
+
+    </div>
+
+            <!-- every js script is called here, in this specific order.-->
+        <script src="js/comic_header.js" defer></script>
+        <script src="js/comic_settings.js" defer></script>
+        <script src="js/comic_archive.js" defer></script>
+        <script src="js/comic_footer.js" defer></script>
+
 </body>
 
 </html>

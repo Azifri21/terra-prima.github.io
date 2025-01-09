@@ -1,0 +1,310 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: "Roboto", Verdana, Arial, sans-serif;
+  font-size:medium;
+  padding: 1rem;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 180%;
+  color: rgb(5, 5, 125);
+}
+
+h2, h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 140%;
+  color: rgb(4, 51, 104);
+}
+
+html { font-size: 22px; }
+
+
+/*page: fanart*/
+
+.fanart {
+  margin-bottom:2rem;
+}
+
+.responsiveImage {
+  max-width: 100%;
+  height: auto;
+}
+
+/*end page fanart*/
+
+/*Page: characters */
+/* responsive grid by Travis Horn https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe */
+
+.characterCard {
+  background-color: rgb(68, 174, 222);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(206, 233, 244);
+  color: white;
+  padding-top: 1rem;
+  padding-left:10px;
+  padding-right:10px;
+  height: 21rem;
+  overflow: auto;
+}
+
+.characters {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  .characters { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .characters { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 900px) {
+  .characters { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* end of responsive grid in character page*/
+
+
+/*page: locations */
+.location {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 95%;
+  position: relative;
+  font-family: Arial;
+}
+
+.textBlock {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+/*end of styling locations*/
+
+/*page:links */
+
+#mylinks {
+}
+
+#otherslinks {
+}
+
+#list {
+  text-align: left;
+}
+
+/*end of styling links page*/
+
+
+body, div, main, section, article {
+  box-sizing: border-box; 
+}
+
+/* universal background color */
+body {
+  background-color: #afb8db; 
+}
+
+/* header image */
+header img {
+  width: 500px;
+  max-width: 98%;
+}
+
+/* clearfix to prevent image overflow. */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* STYLING FOR SUBPAGES (about, characters, etc) */
+
+/*general*/
+
+.subPage {
+  width: 1000px;
+  max-width: 98%;
+  background-color: #ffffff;
+  outline: 3px solid #000000;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 0px 12px 12px;
+}
+
+.subPage:not(.archivePage) {
+  text-align: center;
+}
+
+.box {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 95%;
+}
+
+.boxImages {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+
+/* for pictures displayed to the left */
+.leftPic {
+  clear: left;
+  float:right;
+  margin-left:20px;
+}
+
+/* for pictures displayed to the left */
+.rightPic {
+  clear: right;
+  float:left;
+  margin-left:20px;
+}
+
+
+/* link colors */
+a {
+      color: #000000;
+    }
+
+a:hover {
+      color: #184cb3;
+    }
+
+/* HEADER */
+header #nav {
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+  font-size: 20px;
+  width: 98%;
+  margin: auto;
+
+}
+
+/* COMIC */
+
+/* style nav button images */
+.comicNav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.comicNav img {
+  width: 80px;
+  max-width: 98%;
+  padding-right: 30px;
+}
+
+/* style comic page image */
+.comicPage img {
+  width: 900px;
+  max-width: 98%;
+  margin-bottom: 15px;
+}
+
+/* style author notes */
+#authorNotes {
+  background-color:#ffffff;
+  outline: 3px solid #000000;
+  margin: auto;
+  padding: 3px;
+  padding-top: 0px;
+  width: 900px;
+  max-width: 98%;
+}
+
+/* ARCHIVE PAGE */
+
+/* style table in which archive is displayed */
+.archiveTable {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+/* style archive table cells */
+.archiveTable td {
+  padding: 5px;
+  vertical-align: center;
+}
+
+/* style table cell in which page title is displayed */
+.archiveCellTitle:not(.leftAlignTableText) {
+  max-width: 300px;
+  text-align: center;
+}
+
+/*
+.archiveCellDate {
+  text-align: right;
+  min-width: 120px;
+}
+
+.archiveCellNum {
+  text-align: center;
+  min-width: 30px;
+}
+  */
+
+/* style the thumbnails on the archive page */
+.archiveCellThumb {
+    width: 500px;
+    max-width: 60px;
+}
+.archiveCellThumb img{
+    max-width: 100%;
+  }
+
+/* for left aligning the text in a table cell */
+.leftAlignTableText td {
+  text-align: left;
+}
+
+/* highlight a table row and make pointer into hand when moused over */
+.archiveRow:hover {
+  background-color: #8dc5fe;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  color: #77a0ed;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+  font-size: 14px;
+}
+
+footer p {
+  margin: auto;
+}
+
+footer a {
+  color: #0e13a9
+}
+
+footer a:hover {
+  color: #71cee8
+}
+
+/* take away margins from the edges of the screen */
+html, body {
+  margin: 0;
+}
+
