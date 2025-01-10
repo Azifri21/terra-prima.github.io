@@ -328,3 +328,9 @@ html, body {
   margin-top: 5px;
   width: 98%;
 }
+
+#disqus_thread {
+  margin-top: 5px;
+  }
+
+  /*end disquss*/
