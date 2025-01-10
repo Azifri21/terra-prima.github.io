@@ -235,7 +235,7 @@ header #nav {
 /* style author notes */
 #authorNotes {
   background-color:#ffffff;
-  outline: 3px solid #000000;
+  outline: 1px solid #000000;
   margin: auto;
   padding: 3px;
   padding-top: 0px;
@@ -322,3 +322,7 @@ html, body {
   margin: 0;
 }
 
+/*disqus*/
+#disqus_thread {
+  padding-top: 5px;
+}
