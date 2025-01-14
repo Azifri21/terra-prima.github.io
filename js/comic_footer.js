@@ -3,7 +3,7 @@
 document.querySelector(".writeFooter").innerHTML = `
     <footer align="center">
         <p><strong>Terra Prima created by Azifri</strong></p>
-        <p>Website also made by Azi, with bits and pieces from <a href="https://rarebit.neocities.org" title="link to Rarebit" target="_blank"> Rarebit</a></p>
+        <p>Website also made by Azi; for details and credits visit the <a href="https://github.com/Azifri21/terra-prima.github.io" title="link to GitHub" target="_blank"> GitHub repository</a></p>
         
     </footer>
 `;
